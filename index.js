@@ -8,7 +8,7 @@ const scaleScene = new ScrollMagic.Scene({
     height: '200px'
 })
 .setPin('.img-container')
-.addIndicators({name: '1 (duration: 0)'})
+// .addIndicators({name: '1 (duration: 0)'})
 .addTo(controller);
 
 const rotateScene = new ScrollMagic.Scene({
@@ -19,7 +19,7 @@ const rotateScene = new ScrollMagic.Scene({
     rotation: 720,
     ease: 'none'
 })
-.addIndicators({name: '2 (duration: 600)'})
+// .addIndicators({name: '2 (duration: 600)'})
 .addTo(controller);
 
 const fadeScene = new ScrollMagic.Scene({
@@ -29,5 +29,5 @@ const fadeScene = new ScrollMagic.Scene({
 .setTween('img', {
     opacity: 0
 })
-.addIndicators({name: '3 (duration: 300)'})
+// .addIndicators({name: '3 (duration: 300)'})
 .addTo(controller);
